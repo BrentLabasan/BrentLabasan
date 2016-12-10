@@ -15,6 +15,7 @@ import demoUi from './reducers/demo-ui';
 import thunk from 'redux-thunk';
 import Main from './containers/Main';
 import Account from './containers/Account';
+import Contact from './containers/Contact';
 import SignIn from './containers/SignIn';
 import Container from './components/Container';
 import GlobalComponents from './components/GlobalComponents';
@@ -73,6 +74,10 @@ export function initialize({ apiUrl, cookies, isServer, currentLocation, userAge
           onEnter={requireAuth.bind(this, store)}
           component={Account}
           path="account"
+        />
+        <Route
+          component={Contact}
+          path="contact"
         />
       </Route>
     </Router>

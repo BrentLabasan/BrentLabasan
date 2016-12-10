@@ -26,6 +26,8 @@ class GlobalComponents extends React.Component {
         break;
     }
 
+    Theme = MUITheme;
+
     return (
       <div>
         <Theme.AuthGlobals />

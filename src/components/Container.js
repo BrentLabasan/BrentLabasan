@@ -12,26 +12,34 @@ class Container extends React.Component {
       <div className="wrapper">
         <Navbar className="main-nav">
           <LinkContainer to="/">
-            <Navbar.Brand>Redux Auth</Navbar.Brand>
+            <Navbar.Brand>BRENTLABASAN</Navbar.Brand>
           </LinkContainer>
           <Nav>
 
-            <LinkContainer to="/" onlyActiveOnIndex>
+            {/* <LinkContainer to="/" onlyActiveOnIndex>
               <NavItem eventKey={1}>Home</NavItem>
-            </LinkContainer>
+            </LinkContainer>*/}
 
-            <LinkContainer to="/account">
+            {/* <LinkContainer to="/account">
               <NavItem eventKey={2}>Account</NavItem>
-            </LinkContainer>
+            </LinkContainer>*/}
 
-            <NavDropdown eventKey={3} title="Portfolio" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <NavDropdown eventKey={1} title="Portfolio" id="basic-nav-dropdown">
+              <MenuItem eventKey={1.1}>ThriftBooks</MenuItem>
+              <MenuItem eventKey={1.2}>Slalom Consulting</MenuItem>
+              <MenuItem eventKey={1.3}>Intersect</MenuItem>
+              <MenuItem eventKey={1.4}>Metia</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={3.3}>Separated link</MenuItem>
+              <MenuItem eventKey={1.5}>28Chains</MenuItem>
             </NavDropdown>
 
+          </Nav>
+          <Nav pullRight>
+            <NavItem eventKey={1} href="/resume">Resume</NavItem>
+            <NavItem eventKey={2} href="/about">About</NavItem>
+            <LinkContainer to="/contact">
+              <NavItem eventKey={3}>Contact</NavItem>
+            </LinkContainer>
           </Nav>
         </Navbar>
 
