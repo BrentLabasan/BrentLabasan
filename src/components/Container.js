@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { Grid, Navbar, NavItem, Nav } from 'react-bootstrap';
+import { Grid, Navbar, NavItem, Nav, NavDropdown, MenuItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 class Container extends React.Component {
@@ -15,12 +15,23 @@ class Container extends React.Component {
             <Navbar.Brand>Redux Auth</Navbar.Brand>
           </LinkContainer>
           <Nav>
+
             <LinkContainer to="/" onlyActiveOnIndex>
               <NavItem eventKey={1}>Home</NavItem>
             </LinkContainer>
+
             <LinkContainer to="/account">
               <NavItem eventKey={2}>Account</NavItem>
             </LinkContainer>
+
+            <NavDropdown eventKey={3} title="Portfolio" id="basic-nav-dropdown">
+              <MenuItem eventKey={3.1}>Action</MenuItem>
+              <MenuItem eventKey={3.2}>Another action</MenuItem>
+              <MenuItem eventKey={3.3}>Something else here</MenuItem>
+              <MenuItem divider />
+              <MenuItem eventKey={3.3}>Separated link</MenuItem>
+            </NavDropdown>
+
           </Nav>
         </Navbar>
 
