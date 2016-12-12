@@ -16,6 +16,13 @@ import thunk from 'redux-thunk';
 import Main from './containers/Main';
 import Account from './containers/Account';
 import Contact from './containers/Contact';
+import About from './containers/About';
+import Resume from './containers/Resume';
+import ThriftBooks from './containers/ThriftBooks';
+import SlalomConsulting from './containers/SlalomConsulting';
+import Intersect from './containers/Intersect';
+import Metia from './containers/Metia';
+import TwentyEightChains from './containers/TwentyEightChains';
 import SignIn from './containers/SignIn';
 import Container from './components/Container';
 import GlobalComponents from './components/GlobalComponents';
@@ -79,6 +86,22 @@ export function initialize({ apiUrl, cookies, isServer, currentLocation, userAge
           component={Contact}
           path="contact"
         />
+        <Route
+          component={About}
+          path="about"
+        />
+        <Route
+          component={Resume}
+          path="resume"
+        />
+        <Route path="/portfolio">
+          {/* <Route path="/index" component={Portfolio}/> */}
+          <Route path="/portfolio/thriftbooks" component={ThriftBooks} />
+          <Route path="/portfolio/slalom-consulting" component={SlalomConsulting} />
+          <Route path="/portfolio/intersect" component={Intersect} />
+          <Route path="/portfolio/metia" component={Metia} />
+          <Route path="/portfolio/28Chains" component={TwentyEightChains} />
+        </Route>
       </Route>
     </Router>
   );
