@@ -7,7 +7,8 @@ class Resume extends React.Component {
     return (
       <div>
         <PageHeader>Resume</PageHeader>
-        <p></p>
+        <p>Request a resume at <a href="mailto:BrentLabasan@gmail.com?Subject=Insert%Subject%20Here" target="_top">BrentLabasan@gmail.com</a>
+        </p>
       </div>
     );
   }

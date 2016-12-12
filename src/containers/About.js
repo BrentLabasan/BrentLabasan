@@ -7,7 +7,7 @@ class About extends React.Component {
     return (
       <div>
         <PageHeader>About</PageHeader>
-        <p>Brent Labasan is a web developer, residing in Seattle.</p>
+        <p>Hi there! My name is Brent Labasan and I am a Seattle based web developer who has worked on a variety of technologies such as Angular, React, and ASP.NET MVC.</p>
       </div>
     );
   }

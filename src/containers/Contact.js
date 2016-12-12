@@ -7,12 +7,9 @@ class Contact extends React.Component {
     return (
       <div>
         <PageHeader>Contact</PageHeader>
-        <a
-          href="mailto:BrentLabasan@gmail.com?Subject=Insert%Subject%20Here"
-          target="_top"
-        >
-          BrentLabasan@gmail.com
-        </a>
+        <p>Want to chat about web development jobs or consulting?</p>
+        <p>Send me a message at <a href="mailto:BrentLabasan@gmail.com?Subject=Insert%Subject%20Here" target="_top">BrentLabasan@gmail.com</a>
+        </p>
       </div>
     );
   }
