@@ -5,4 +5,8 @@ body {
   :global(.Select) {
     margin-bottom: 10px;
   }
+
+  #content {
+    height: 100%;
+  }
 }
