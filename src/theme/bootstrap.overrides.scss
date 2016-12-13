@@ -15,3 +15,45 @@
   color: #33e0ff;
   background-color: transparent;
 }
+
+.portfolioEntry {
+  color: white;
+  max-width:960px;
+  margin: 0 auto;
+
+  div {
+    display: inline-block;
+    max-width: 960px;
+    float:left;
+    overflow-x: hidden;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 65px;
+  }
+
+  .txtAlignLeft {
+    text-align: left;
+  }
+
+  .txtSection {
+    padding: 11px 29px 11px 29px;
+
+  }
+
+  .height200 {
+    height: 200px;
+    // display: inline;
+  }
+}
+
+.ThriftBooks {
+  .F3A326 {
+    background-color: #F3A326;
+  }
+
+
+
+}

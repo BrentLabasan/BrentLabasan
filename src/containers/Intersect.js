@@ -7,6 +7,7 @@ class Intersect extends React.Component {
     return (
       <div>
         <PageHeader>Intersect</PageHeader>
+        <p>Work In Progress...</p>
       </div>
     );
   }

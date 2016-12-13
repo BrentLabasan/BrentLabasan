@@ -7,6 +7,7 @@ class SlalomConsulting extends React.Component {
     return (
       <div>
         <PageHeader>SlalomConsulting</PageHeader>
+        <p>Work In Progress...</p>
       </div>
     );
   }

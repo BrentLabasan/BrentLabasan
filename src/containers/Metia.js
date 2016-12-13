@@ -7,6 +7,7 @@ class Metia extends React.Component {
     return (
       <div>
         <PageHeader>Metia</PageHeader>
+        <p>Work In Progress...</p>
       </div>
     );
   }
