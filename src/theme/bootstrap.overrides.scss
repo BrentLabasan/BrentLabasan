@@ -41,7 +41,10 @@
 
   .txtSection {
     padding: 11px 29px 11px 29px;
-
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .height200 {
@@ -57,6 +60,10 @@
 .ThriftBooks {
   .F3A326 {
     background-color: #F3A326;
+  }
+
+  .F7CF87 {
+    background-color: #F7CF87;
   }
 
   div {
