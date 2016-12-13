@@ -34,7 +34,7 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+            <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
               <h2>Developed ThriftBook's customer facing retail site.</h2>
             </Col>
           </Row>
@@ -44,26 +44,47 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Updated and iterated on product pages’ edition selector interface according to customer suggestions.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="noPadding"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-old-bw.jpg" alt="Thriftbooks banner" /></Col>
+          </Row>
+
+          <Row className="show-grid">
             <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h2>Updated and iterated on book pages’ edition selector interface according to customer suggestions.</h2>
+              <h4>Customers were complaining that there wasn't enough information about the condition quality of used books.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="noPadding"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-new-bw.jpg" alt="Thriftbooks banner" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Implented a redesigned interface to include condition quality status. Tweaked the tab button
+              design to better indicate which tab is currently selected.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Separated data for page loads into preliminary and React stages. For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Created a React-based autocomplete component for product search field.</h3>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h2>Separated data for page loads into preliminary and React stages. For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h2>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h2>Created a React-based autocomplete component for product search field.</h2>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h2>Used Redux and Flux for handling state interaction of various React components.</h2>
+              <h3>Used Redux and Flux for handling state interaction of various React components.</h3>
             </Col>
           </Row>
 
