@@ -21,12 +21,12 @@
   max-width:960px;
   margin: 0 auto;
 
-  div {
-    display: inline-block;
-    max-width: 960px;
-    float:left;
-    overflow-x: hidden;
-  }
+  // div {
+  //   display: inline-block;
+  //   max-width: 960px;
+  //   float:left;
+  //   overflow-x: hidden;
+  // }
 
   h2 {
     font-weight: bold;
@@ -52,6 +52,10 @@
 .ThriftBooks {
   .F3A326 {
     background-color: #F3A326;
+  }
+
+  div {
+    overflow: hidden;
   }
 
 
