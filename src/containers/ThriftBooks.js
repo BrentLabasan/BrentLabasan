@@ -84,7 +84,7 @@ class ThriftBooks extends React.Component {
           <Row className="show-grid">
             <Col xs={12} className="F7CF87in">
               {/* <video width="1460" height="822" controls>*/}
-              <video width="1000" height="563" controls>
+              <video width="90%" controls>
                 <source src="/thriftbooks/Thriftbooks-preReact-React-stages.mp4" type="video/mp4" />
               </video>
             </Col>
