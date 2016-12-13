@@ -30,7 +30,7 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12}><img src="/thriftbooks/Thriftbooks-banner-1140.jpg" alt="Thriftbooks banner" /></Col>
+            <Col xs={12} className="noPadding"><img src="/thriftbooks/Thriftbooks-banner-lrg.jpg" alt="Thriftbooks banner" /></Col>
           </Row>
 
           <Row className="show-grid">
