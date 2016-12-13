@@ -32,7 +32,7 @@ class ThriftBooks extends React.Component {
           <Row className="show-grid">
             <Col xs={12} className="noPadding"><img src="/thriftbooks/Thriftbooks-banner-lrg.jpg" alt="Thriftbooks banner" /></Col>
           </Row>
-
+          <br />
           <Row className="show-grid">
             <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
               <h2>Developed ThriftBook's customer facing retail site.</h2>
@@ -42,6 +42,7 @@ class ThriftBooks extends React.Component {
           <Row className="show-grid">
             <Col xs={12} className="noPadding"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-homepage.jpg" alt="Thriftbooks banner" /></Col>
           </Row>
+          <br />
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
@@ -70,6 +71,8 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
+          <br />
+
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Separated data for page loads into preliminary and React stages. For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h3>
@@ -77,13 +80,23 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
+            <Col xs={12} className="noPadding">
+              <video width="1460" height="822" controls>
+                <source src="/thriftbooks/Thriftbooks-preReact-React-stages.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <br />
+          
+          <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Created a React-based autocomplete component for product search field.</h3>
             </Col>
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Used Redux and Flux for handling state interaction of various React components.</h3>
             </Col>
           </Row>
