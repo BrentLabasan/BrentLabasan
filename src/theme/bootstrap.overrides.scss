@@ -7,6 +7,10 @@
   position: relative;
   padding-left: 50px;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .navbar-default .navbar-nav > .active > a,
