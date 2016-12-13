@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 class ThriftBooks extends React.Component {
   render() {
     return (
-      <div className="ThriftBooks" style={{ textAlign: 'center' }}>
+      <div className="portfolioEntry ThriftBooks" style={{ textAlign: 'center' }}>
 
         <Grid>
 
@@ -30,8 +30,11 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} md={8}><img src="/thriftbooks/Thriftbooks-banner.jpg" alt="Thriftbooks banner" /></Col>
-            <Col xs={6} md={4}><code>&lt;{'Col xs={6} md={4}'} /&gt;</code></Col>
+            <Col xs={12}><img src="/thriftbooks/Thriftbooks-banner-1140.jpg" alt="Thriftbooks banner" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtAlignLeft"><h2>Developed ThriftBook's customer facing retail site.</h2></Col>
           </Row>
 
         </Grid>
