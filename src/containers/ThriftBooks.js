@@ -40,7 +40,9 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="noPadding"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-homepage.jpg" alt="Thriftbooks banner" /></Col>
+            <Col xs={12} className="noPadding">
+              <img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-homepage.jpg" alt="Thriftbooks banner" />
+            </Col>
           </Row>
           <br />
 
@@ -51,7 +53,7 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="noPadding"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-old-bw.jpg" alt="Thriftbooks banner" /></Col>
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-old-bw.jpg" alt="Thriftbooks banner" /></Col>
           </Row>
 
           <Row className="show-grid">
@@ -61,7 +63,7 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="noPadding"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-new-bw.jpg" alt="Thriftbooks banner" /></Col>
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-new-bw.jpg" alt="Thriftbooks banner" /></Col>
           </Row>
 
           <Row className="show-grid">
@@ -75,20 +77,27 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Separated data for page loads into preliminary and React stages. For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h3>
+              <h3>Separated data for page loads into preliminary and React stages.</h3>
             </Col>
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="noPadding">
-              <video width="1460" height="822" controls>
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="1000" height="563" controls>
                 <source src="/thriftbooks/Thriftbooks-preReact-React-stages.mp4" type="video/mp4" />
               </video>
             </Col>
           </Row>
 
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h4>
+            </Col>
+          </Row>
+
           <br />
-          
+
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Created a React-based autocomplete component for product search field.</h3>
