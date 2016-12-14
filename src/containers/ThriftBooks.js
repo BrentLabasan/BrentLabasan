@@ -105,6 +105,53 @@ class ThriftBooks extends React.Component {
           </Row>
 
           <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-autocomplete-basic-dummy-data.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Initial version using dummy data.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-autocomplete-basic-real-data-styled.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Styled and using live data.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-autocomplete-live.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>On live website.</h4>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Used Redux and Flux for handling state interaction of various React components.</h3>
             </Col>
