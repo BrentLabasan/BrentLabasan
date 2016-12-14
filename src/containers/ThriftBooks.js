@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
+// import { Grid, Row, Col, ButtonGroup, Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 
 class ThriftBooks extends React.Component {
@@ -32,7 +33,16 @@ class ThriftBooks extends React.Component {
           <Row className="show-grid">
             <Col xs={12} className="noPadding"><img src="/thriftbooks/Thriftbooks-banner-lrg.jpg" alt="Thriftbooks banner" /></Col>
           </Row>
-          <br />
+
+          <br /><br />
+
+          {/* <ButtonGroup>
+            <Button bsStyle="success">Thriftbooks</Button>
+            <Button>BookClubHub</Button>
+          </ButtonGroup>*/}
+
+          <br /><br /><br />
+
           <Row className="show-grid">
             <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
               <h2>Developed ThriftBook's customer facing retail site.</h2>
@@ -153,9 +163,32 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Created admin tools for content wrkters and administrators.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Used Redux and Flux for handling state interaction of various React components.</h3>
             </Col>
           </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
+              <h2>Developed BookClubHub, ThriftBook's social book club site.</h2>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="noPadding">
+              <img style={{ width: '100%' }} src="/thriftbooks/BookClubHub-screenshot.jpg" alt="BookClubHub screenshot" />
+            </Col>
+          </Row>
+          <br />
 
         </Grid>
 
