@@ -163,7 +163,7 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Created admin tools for content wrkters and administrators.</h3>
+              <h3>Created admin tools for content writers and administrators.</h3>
             </Col>
           </Row>
 
