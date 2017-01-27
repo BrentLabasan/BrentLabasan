@@ -45,64 +45,13 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
-              <h2>Developed ThriftBook's customer facing retail site.</h2>
+              <h2>Developed <a href="https://www.thriftbooks.com" target="_blank">ThriftBooks'</a> customer facing retail site.</h2>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="noPadding">
               <img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-homepage.jpg" alt="Thriftbooks banner" />
-            </Col>
-          </Row>
-          <br />
-
-          <Row className="show-grid">
-            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Updated and iterated on product pages’ edition selector interface according to customer suggestions.</h3>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-old-bw.jpg" alt="Thriftbooks banner" /></Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>Customers were complaining that there wasn't enough information about the condition quality of used books.</h4>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-new-bw.jpg" alt="Thriftbooks banner" /></Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>Implented a redesigned interface to include condition quality status. Tweaked the tab button
-              design to better indicate which tab is currently selected.</h4>
-            </Col>
-          </Row>
-
-          <br />
-
-          <Row className="show-grid">
-            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Separated data for page loads into preliminary and React stages.</h3>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87in">
-              {/* <video width="1460" height="822" controls>*/}
-              <video width="90%" controls>
-                <source src="/thriftbooks/Thriftbooks-preReact-React-stages.mp4" type="video/mp4" />
-              </video>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h4>
             </Col>
           </Row>
 
@@ -163,7 +112,7 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Implemented a USPS address validation modal for shopping cart checkout process. Used JavaScript and USPS’ API.</h3>
+              <h3>Implemented a USPS address validation modal for shopping cart checkout process.</h3>
             </Col>
           </Row>
 
@@ -173,7 +122,27 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>On live website.</h4>
+              <h4>Used JavaScript and USPS’ API. Add some books to your cart on <a href="https://www.thriftbooks.com" target="_blank">ThriftBooks</a> and navigate to the <a href="https://www.thriftbooks.com/cart/checkout.aspx" target="_blank">shipping address</a> step of the checkout process.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/USPS-validation-modal-code.png" alt="USPS validation modal code" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Some of the JavaScript code.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/USPS-validation-modal-bug-fixing-cleanup.png" alt="USPS validation modal" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Code review.</h4>
             </Col>
           </Row>
 
@@ -181,7 +150,69 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Published blog and landing pages written by our in-house content writers. Wrote scripts to input page data into SQL Server, and then modified blog and landing page HTML templates to match specs.</h3>
+              <h3>Separated data for page loads into preliminary and React stages.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-preReact-React-stages.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>For preliminary stage, only content necessary for SEO is rendered. React stage will then load additional content.</h4>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Updated and iterated on product pages’ edition selector interface according to customer suggestions.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-old-bw.jpg" alt="Thriftbooks banner" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Customers were complaining that there wasn't enough information about the condition quality of used books.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-edition-selector-new-bw.jpg" alt="Thriftbooks banner" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Implented a redesigned interface to include condition quality status. Tweaked the tab button
+              design to better indicate which tab is currently selected.</h4>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Published blog and landing pages written by our in-house content writers.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-blog.jpg" alt="Thriftbooks blog entries" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Wrote scripts to input page data into SQL Server, and then modified blog and landing page HTML templates to match specs.</h4>
             </Col>
           </Row>
 
@@ -193,11 +224,54 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-admin-tool-marketing-text.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Developed a feature to display custom marketing text on book products' pages. Text could be something like a custom review from one of ThriftBook's employees. You can see some of the code and
+              dummy SQL data.
+              </h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-admin-tool-marketing-text-interface.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>The behind-the-scenes admin area, for non-developers to write their own custom marketing text for products.
+              </h4>
+            </Col>
+          </Row>
+
           <br />
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Used Optimizely for A/B Testing. Wrote site interface changes with JavaScript.</h3>
+              <h3>Used Optimizely for A/B Testing.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-Optimizely1.png" alt="Optimizely code and result" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>jQuery was used for interface changes.</h4>
             </Col>
           </Row>
 
@@ -214,6 +288,21 @@ class ThriftBooks extends React.Component {
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Created and modified Mocha, Chai and Selenium tests for front end testing, and NUnit tests for backend unit testing. Used Browserstack and hallway testing for cross browser testing.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/thriftbooks/Thriftbooks-Selenium1.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Running a Selenium test on my auto-complete.</h4>
             </Col>
           </Row>
 
