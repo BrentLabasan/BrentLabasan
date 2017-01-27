@@ -45,7 +45,7 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
-              <h2>Developed <a href="https://www.thriftbooks.com" target="_blank">ThriftBooks'</a> customer facing retail site.</h2>
+              <h2>Developed the <a href="https://www.thriftbooks.com" target="_blank">ThriftBooks</a> customer facing retail site.</h2>
             </Col>
           </Row>
 
