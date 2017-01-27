@@ -122,7 +122,9 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>Used JavaScript and USPS’ API. Add some books to your cart on <a href="https://www.thriftbooks.com" target="_blank">ThriftBooks</a> and navigate to the <a href="https://www.thriftbooks.com/cart/checkout.aspx" target="_blank">shipping address</a> step of the checkout process.</h4>
+              <h4>Used JavaScript, jQuery, and USPS’ API.
+                <br /><br />
+                Add some books to your cart on <a href="https://www.thriftbooks.com" target="_blank">ThriftBooks</a> and navigate to the <a href="https://www.thriftbooks.com/cart/checkout.aspx" target="_blank">shipping address</a> step of the checkout process.</h4>
             </Col>
           </Row>
 
@@ -148,7 +150,7 @@ class ThriftBooks extends React.Component {
 
           <br />
 
-          <Row className="show-grid">
+          {/* <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Separated data for page loads into preliminary and React stages.</h3>
             </Col>
@@ -156,7 +158,6 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F7CF87in">
-              {/* <video width="1460" height="822" controls>*/}
               <video width="90%" controls>
                 <source src="/thriftbooks/Thriftbooks-preReact-React-stages.mp4" type="video/mp4" />
               </video>
@@ -169,9 +170,9 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
-          <br />
+          <br /> */}
 
-          <Row className="show-grid">
+          {/* <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Updated and iterated on product pages’ edition selector interface according to customer suggestions.</h3>
             </Col>
@@ -198,7 +199,7 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
-          <br />
+          <br /> */}
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
@@ -283,6 +284,16 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/Thriftbooks-LINQ.jpg" alt="LINQ queries" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>LINQ queries in the marketing text controller. They will return a search query result, a paginated list, or a specific marketing text, respectively.</h4>
+            </Col>
+          </Row>
+
           <br />
 
           <Row className="show-grid">
@@ -308,17 +319,17 @@ class ThriftBooks extends React.Component {
 
           <br />
 
-          <Row className="show-grid">
+          {/* <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Used Redux and Flux for handling state interaction of various React components.</h3>
             </Col>
           </Row>
 
-          <br />
+          <br /> */}
 
           <Row className="show-grid">
             <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
-              <h2>Developed BookClubHub, ThriftBook's social book club site.</h2>
+              <h2>Developed <a href="https://BookClubHub.com" target="_blank">BookClubHub</a>, ThriftBook's social book club site.</h2>
             </Col>
           </Row>
 
@@ -327,6 +338,23 @@ class ThriftBooks extends React.Component {
               <img style={{ width: '100%' }} src="/thriftbooks/BookClubHub-screenshot.jpg" alt="BookClubHub screenshot" />
             </Col>
           </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Created and maintained with HTML, SCSS, JavaScript, React, ASP.NET MVC 5, and SQL Server.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Used React to implement Clubs, Events, Invite RSVPs, and Profiles.</h3>
+            </Col>
+          </Row>
+
           <br />
 
         </Grid>
