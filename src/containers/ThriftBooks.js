@@ -163,7 +163,57 @@ class ThriftBooks extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
-              <h3>Created admin tools for content writers and administrators.</h3>
+              <h3>Implemented a USPS address validation modal for shopping cart checkout process. Used JavaScript and USPS’ API.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/USPS-validation-modal.png" alt="USPS validation modal" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>On live website.</h4>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Published blog and landing pages written by our in-house content writers. Wrote scripts to input page data into SQL Server, and then modified blog and landing page HTML templates to match specs.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Designed and developed web apps for the admin area for our content writers and administrators: WordPress-style blog publishing tools (with TinyMCE), custom text on book product pages, etc...</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Used Optimizely for A/B Testing. Wrote site interface changes with JavaScript.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Created and modified SQL tables, queries and stored procedures. In C# files, used either SQL query strings or LINQ to Entity.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Created and modified Mocha, Chai and Selenium tests for front end testing, and NUnit tests for backend unit testing. Used Browserstack and hallway testing for cross browser testing.</h3>
             </Col>
           </Row>
 
