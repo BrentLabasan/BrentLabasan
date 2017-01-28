@@ -97,6 +97,31 @@ class SlalomConsulting extends React.Component {
 
           <br />
 
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Updated old web app interfaces to a Single Page Application style interface using Angular.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              <video width="90%" controls>
+                <source src="/slalom-consulting/McKesson/McKesson1.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Filtering by drop down and by search query.
+              </h4>
+            </Col>
+          </Row>
+
+          <br />
+
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Implemented and tested an ASP.NET MVC4 Web API</h3>
