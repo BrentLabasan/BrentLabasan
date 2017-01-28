@@ -16,7 +16,7 @@ class About extends React.Component {
                 <h2>About</h2>
               </Col>
               <Col xs={9}>
-                <h4>Hi there! My name is Brent Labasan and I am a Seattle based web developer who has worked with a variety of technologies such as Angular, React, and ASP.NET MVC.</h4>
+                <h4>Hi there! My name is Brent Labasan and I am a Seattle based web developer who has worked with a variety of technologies such as HTML, CSS, JavaScript, ES6, Angular, React, Ruby on Rails, and ASP.NET MVC.</h4>
               </Col>
             </Col>
 
@@ -65,13 +65,15 @@ class About extends React.Component {
                   <br />
                 I also like making music in my spare time.</h4>
 
-                <iframe width="100%" height="300" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185420013&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                <iframe width="100%" height="200" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185420013&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
               </Col>
             </Col>
 
           </Row>
 
         </Grid>
+
+        <br />
 
       </div>
     );
