@@ -63,6 +63,22 @@ class SlalomConsulting extends React.Component {
           <br />
 
           <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Implemented AngularJS views, routing, and directives to integrate a single page user experience.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Primary test author and tester for the client facing portion of the web application. Types of testing included manual, exploratory, regression, Selenium, and cross browser testing.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
             <Col xs={12} className="CF3D26 txtSection txtAlignLeft">
               <Col xs={4}>
                 <h2>McKesson Corporation</h2>
@@ -76,6 +92,46 @@ class SlalomConsulting extends React.Component {
           <Row className="show-grid">
             <Col xs={12} className="noPadding">
               <img style={{ width: '100%' }} src="/slalom-consulting/McKesson-manageClaimAssignmentsPayerStatusRules.jpg" alt="McKesson manage claim assignments payer status rules screenshot" />
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Implemented and tested an ASP.NET MVC4 Web API</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Programmed with JavaScript and Angular on the front-end and C# for the back-end.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Developed a client side interface that utilized the Web API for a rich user experience.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Supporting operations with records numbering in the millions.</h3>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Test driven development with NUnit and Moq.</h3>
             </Col>
           </Row>
 
