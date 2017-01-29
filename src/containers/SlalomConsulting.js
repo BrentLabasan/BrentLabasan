@@ -64,6 +64,54 @@ class SlalomConsulting extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Multiple types of users: employees, User Group Managers, Award Program Managers, Content Managers, etc...</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              <video width="90%" controls>
+                <source src="/slalom-consulting/MadisonPerformanceGroup/MadisonPerformanceGroup1.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>Different brower profiles for different user types.
+              </h4>
+            </Col>
+          </Row>
+
+          <br />
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>Selecting a user to send a reward to.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in">
+              <video width="90%" controls>
+                <source src="/slalom-consulting/MadisonPerformanceGroup/MadisonPerformanceGroup2.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>You can even send the reward with a custom message.
+              </h4>
+            </Col>
+          </Row>
+
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>Implemented AngularJS views, routing, and directives to integrate a single page user experience.</h3>
             </Col>
           </Row>
