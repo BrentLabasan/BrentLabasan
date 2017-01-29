@@ -108,15 +108,13 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
-          <br />
-
           <Row className="show-grid">
-            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/ThriftBooks-traffic-USPS-modal.png" alt="USPS validation modal" /></Col>
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/ThriftBooks-traffic-autocomplete.png" alt="autocomplete traffic" /></Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>Viewed by 50K users each week.</h4>
+              <h4>Viewed by 2M users each week.</h4>
             </Col>
           </Row>
 
@@ -160,15 +158,13 @@ class ThriftBooks extends React.Component {
             </Col>
           </Row>
 
-          <br />
-
           <Row className="show-grid">
-            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/ThriftBooks-traffic-autocomplete.png" alt="USPS validation modal" /></Col>
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/thriftbooks/ThriftBooks-traffic-USPS-modal.png" alt="USPS validation modal" /></Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
-              <h4>Viewed by 2M users each week.</h4>
+              <h4>Viewed by 50K users each week.</h4>
             </Col>
           </Row>
 
