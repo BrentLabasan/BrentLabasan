@@ -33,15 +33,11 @@ class Main extends React.Component {
           </a>
         </div>
 
-        <br />
-
         <div style={{ overflow: 'hidden', backgroundUrl: '/slalom-consulting/Slalom-Consulting-banner.jpg' }}>
           <a href="/portfolio/slalom-consulting">
             <img src="/slalom-consulting/Slalom-Consulting-banner.jpg" alt="Slalom Consulting banner" />
           </a>
         </div>
-
-        <br />
 
         <div style={{ overflow: 'hidden', backgroundUrl: '/intersect/Intersect-banner.jpg' }}>
           <a href="/portfolio/intersect">
@@ -49,11 +45,15 @@ class Main extends React.Component {
           </a>
         </div>
 
-        <br />
-
         <div style={{ overflow: 'hidden', backgroundUrl: '/metia/Metia-banner.jpg' }}>
           <a href="/portfolio/metia">
             <img src="/metia/Metia-banner.jpg" alt="Metia banner" />
+          </a>
+        </div>
+
+        <div style={{ overflow: 'hidden', backgroundUrl: '/28Chains/28Chains-banner.jpg' }}>
+          <a href="/portfolio/28Chains">
+            <img src="/28Chains/28Chains-banner.jpg" alt="28Chains banner" />
           </a>
         </div>
 
