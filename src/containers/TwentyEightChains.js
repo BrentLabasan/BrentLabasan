@@ -62,6 +62,14 @@ class TwentyEightChains extends React.Component {
             </Col>
           </Row>
 
+          <br />
+
+          <Row className="show-grid">
+            <Col xs={12} className="F3A326 txtSection txtAlignLeft">
+              <h3>HTML, CSS, JavaScript, React, Bootstrap on the front end. Heroku, Node, Firebase (NoSQL), and Mocha + Chai  on the back end.</h3>
+            </Col>
+          </Row>
+
         </Grid>
       </div>
     );
