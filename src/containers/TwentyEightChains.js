@@ -28,11 +28,37 @@ class TwentyEightChains extends React.Component {
             </Col>
           </Row>
 
+          <Row className="show-grid">
+            <Col xs={12} className="noPadding">
+              <img style={{ width: '100%' }} src="/28Chains/28Chains-banner-screenshot.jpg" alt="Madison Performance Group homepage screenshot" />
+            </Col>
+          </Row>
+
           <br />
 
           <Row className="show-grid">
             <Col xs={12} className="F3A326 txtSection txtAlignLeft">
               <h3>There are various features to help you commit to your goal daily.</h3>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/28Chains/28Chains-chainCollage.jpg" alt="28Chains chain collage" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>I track my habit building activity by 28 day periods. The higher your consistency, the stronger the chain.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87in"><img style={{ width: '100%' }} src="/28Chains/28Chains-JournalAdvice.jpg" alt="28Chains journal advice" /></Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="F7CF87 txtSection txtAlignLeft">
+              <h4>You can journal your daily activity, and there is a separate field for writing down advice that you would want other people working on the same habit to know.</h4>
             </Col>
           </Row>
 
