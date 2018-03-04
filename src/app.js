@@ -96,6 +96,7 @@ export function initialize({ apiUrl, cookies, isServer, currentLocation, userAge
         />
         <Route path="/portfolio">
           {/* <Route path="/index" component={Portfolio}/> */}
+          <Route path="/portfolio/microsoft-atlanta" component={Microsoft-Atlanta} />
           <Route path="/portfolio/thriftbooks" component={ThriftBooks} />
           <Route path="/portfolio/slalom-consulting" component={SlalomConsulting} />
           <Route path="/portfolio/intersect" component={Intersect} />
