@@ -45,13 +45,13 @@ class MicrosoftAtlanta extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="ms-red txtSection txtAlignLeft">
-              <h2>Developed the <a href="https://www.microsoft-atlanta.com" target="_blank">Microsoft_Atlanta</a> customer facing retail site. Front-end and back-end.</h2>
+              <h2>Front-end and back-end development of a content moderation web application, for use both internally and by Microsoft’s partners.</h2>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="noPadding">
-              <img style={{ width: '100%' }} src="/microsoft-atlanta/Thriftbooks-homepage.jpg" alt="Thriftbooks banner" />
+              <img style={{ width: '100%' }} src="/microsoft-atlanta/Microsoft-Atlanta-moderation1.jpg" alt="Thriftbooks banner" />
             </Col>
           </Row>
 
@@ -67,14 +67,14 @@ class MicrosoftAtlanta extends React.Component {
             <Col xs={12} className="ms-yellowin">
               {/* <video width="1460" height="822" controls>*/}
               <video width="90%" controls>
-                <source src="/microsoft-atlanta/Thriftbooks-autocomplete-basic-dummy-data.mp4" type="video/mp4" />
+                <source src="/microsoft-atlanta/url1.mp4" type="video/mp4" />
               </video>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Initial version using dummy data.</h4>
+              <h4>Moderating URLs.</h4>
             </Col>
           </Row>
 
