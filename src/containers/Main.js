@@ -33,9 +33,9 @@ class Main extends React.Component {
           </a>
         </div>
 
-        <div style={{ overflow: 'hidden', backgroundUrl: '/microsoft-atlanta/Thriftbooks-banner.jpg' }}>
-          <a href="/portfolio/microsoft-atlanta">
-            <img src="/microsoft-atlanta/Thriftbooks-banner.jpg" alt="Thriftbooks banner" />
+        <div style={{ overflow: 'hidden', backgroundUrl: '/thriftbooks/Thriftbooks-banner.jpg' }}>
+          <a href="/portfolio/thriftbooks">
+            <img src="/thriftbooks/Thriftbooks-banner.jpg" alt="Thriftbooks banner" />
           </a>
         </div>
 

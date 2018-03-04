@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 // import { Grid, Row, Col, ButtonGroup, Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 
-class Microsoft_Atlanta extends React.Component {
+class MicrosoftAtlanta extends React.Component {
   render() {
     return (
       <div className="portfolioEntry Microsoft_Atlanta" style={{ textAlign: 'center' }}>
@@ -386,4 +386,4 @@ class Microsoft_Atlanta extends React.Component {
   }
 }
 
-export default connect(({ routes }) => ({ routes }))(Microsoft_Atlanta);
+export default connect(({ routes }) => ({ routes }))(MicrosoftAtlanta);
