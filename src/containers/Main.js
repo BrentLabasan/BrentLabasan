@@ -27,9 +27,15 @@ class Main extends React.Component {
   render() {
     return (
       <div style={{ textAlign: 'center' }}>
-        <div style={{ overflow: 'hidden', backgroundUrl: '/thriftbooks/Thriftbooks-banner.jpg' }}>
-          <a href="/portfolio/thriftbooks">
-            <img src="/thriftbooks/Thriftbooks-banner.jpg" alt="Thriftbooks banner" />
+        <div style={{ overflow: 'hidden', backgroundUrl: '/microsoft-atlanta/Microsoft-Atlanta-banner.jpg' }}>
+          <a href="/portfolio/microsoft-atlanta">
+            <img src="/microsoft-atlanta/Microsoft-Atlanta-banner.jpg" alt="Microsoft-Atlanta banner" />
+          </a>
+        </div>
+
+        <div style={{ overflow: 'hidden', backgroundUrl: '/microsoft-atlanta/Thriftbooks-banner.jpg' }}>
+          <a href="/portfolio/microsoft-atlanta">
+            <img src="/microsoft-atlanta/Thriftbooks-banner.jpg" alt="Thriftbooks banner" />
           </a>
         </div>
 
