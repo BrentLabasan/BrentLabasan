@@ -25,12 +25,14 @@ class Container extends React.Component {
             </LinkContainer>*/}
 
             <NavDropdown eventKey={1} title="Portfolio" id="basic-nav-dropdown">
-              <MenuItem eventKey={1.1} href="/portfolio/thriftbooks">ThriftBooks</MenuItem>
-              <MenuItem eventKey={1.2} href="/portfolio/slalom-consulting">Slalom Consulting</MenuItem>
-              <MenuItem eventKey={1.3} href="/portfolio/intersect">Intersect</MenuItem>
-              <MenuItem eventKey={1.4} href="/portfolio/metia">Metia</MenuItem>
+              <MenuItem eventKey={1.1} href="/portfolio/microsoft-atlanta">Microsoft</MenuItem>
+              <MenuItem eventKey={1.2} href="/portfolio/thriftbooks">ThriftBooks</MenuItem>
+              <MenuItem eventKey={1.3} href="/portfolio/slalom-consulting">Slalom Consulting</MenuItem>
+              <MenuItem eventKey={1.4} href="/portfolio/intersect">Intersect</MenuItem>
+              <MenuItem eventKey={1.5} href="/portfolio/metia">Metia</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={1.5} href="/portfolio/28Chains">28Chains</MenuItem>
+              <MenuItem eventKey={1.6} href="/portfolio/RequestAStellarATM">Request A Stellar ATM</MenuItem>
+              {/* <MenuItem eventKey={1.6} href="/portfolio/28Chains">28Chains</MenuItem> */}
             </NavDropdown>
 
           </Nav>

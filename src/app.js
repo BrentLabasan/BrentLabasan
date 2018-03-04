@@ -18,6 +18,7 @@ import Account from './containers/Account';
 import Contact from './containers/Contact';
 import About from './containers/About';
 import Resume from './containers/Resume';
+import MicrosoftAtlanta from './containers/MicrosoftAtlanta';
 import ThriftBooks from './containers/ThriftBooks';
 import SlalomConsulting from './containers/SlalomConsulting';
 import Intersect from './containers/Intersect';
@@ -96,6 +97,7 @@ export function initialize({ apiUrl, cookies, isServer, currentLocation, userAge
         />
         <Route path="/portfolio">
           {/* <Route path="/index" component={Portfolio}/> */}
+          <Route path="/portfolio/microsoft-atlanta" component={MicrosoftAtlanta} />
           <Route path="/portfolio/thriftbooks" component={ThriftBooks} />
           <Route path="/portfolio/slalom-consulting" component={SlalomConsulting} />
           <Route path="/portfolio/intersect" component={Intersect} />
