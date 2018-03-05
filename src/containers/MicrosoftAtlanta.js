@@ -59,7 +59,7 @@ class MicrosoftAtlanta extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="ms-blue txtSection txtAlignLeft">
-              <h3>Created a React-based autocomplete component for product search field.</h3>
+              <h3>Content types include text, URLs, audio, video, and 3D models.</h3>
             </Col>
           </Row>
 
@@ -67,14 +67,14 @@ class MicrosoftAtlanta extends React.Component {
             <Col xs={12} className="ms-yellowin">
               {/* <video width="1460" height="822" controls>*/}
               <video width="90%" controls>
-                <source src="/microsoft-atlanta/url1.mp4" type="video/mp4" />
+                <source src="/microsoft-atlanta/text1.mp4" type="video/mp4" />
               </video>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Moderating URLs.</h4>
+              <h4>Building the text moderation section.</h4>
             </Col>
           </Row>
 
@@ -82,14 +82,29 @@ class MicrosoftAtlanta extends React.Component {
             <Col xs={12} className="ms-yellowin">
               {/* <video width="1460" height="822" controls>*/}
               <video width="90%" controls>
-                <source src="/microsoft-atlanta/Thriftbooks-autocomplete-basic-real-data-styled.mp4" type="video/mp4" />
+                <source src="/microsoft-atlanta/image1-zoom.mp4" type="video/mp4" />
               </video>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Styled and using live data.</h4>
+              <h4>Building the image moderation section. Testing the content zoom function.</h4>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="ms-yellowin">
+              {/* <video width="1460" height="822" controls>*/}
+              <video width="90%" controls>
+                <source src="/microsoft-atlanta/url2-tagging.mp4" type="video/mp4" />
+              </video>
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
+              <h4>Tagging URLs. Testing the tag selection and search interface. Verifying that content cannot be tagged with the same tag twice.</h4>
             </Col>
           </Row>
 
