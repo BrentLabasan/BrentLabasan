@@ -28,7 +28,7 @@ class Main extends React.Component {
     return (
       <div style={{ textAlign: 'center' }}>
         <div style={{ overflow: 'hidden', backgroundUrl: '/RequestAStellarATM/RequestAStellarATM-banner.jpg' }}>
-          <a href="/portfolio/RequestAStellarATM">
+          <a href="/portfolio/request-a-stellar-atm">
             <img src="/RequestAStellarATM/RequestAStellarATM-banner.png" alt="Request A Stellar ATM banner" />
           </a>
         </div>
