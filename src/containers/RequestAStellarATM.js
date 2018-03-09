@@ -47,6 +47,10 @@ class RequestAStellarATM extends React.Component {
             <Col xs={12} className="ms-red txtSection txtAlignLeft">
               <h2>
                 Developed a <a href="http://RequestAStellarATM.com" target="_blank">web app</a> that allows users to donate Stellar Lumens (IBM-partnered cryptocurrency) towards funding cryptocurrency ATMs in underbanked locations.
+
+                <br /><br />
+
+                Locations automatically show up on a Google Map, with a number indicating how many Stellar Lumens (XLM) were donated.
               </h2>
             </Col>
           </Row>
