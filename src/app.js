@@ -18,6 +18,7 @@ import Account from './containers/Account';
 import Contact from './containers/Contact';
 import About from './containers/About';
 import Resume from './containers/Resume';
+import RequestAStellarATM from './containers/RequestAStellarATM';
 import MicrosoftAtlanta from './containers/MicrosoftAtlanta';
 import ThriftBooks from './containers/ThriftBooks';
 import SlalomConsulting from './containers/SlalomConsulting';
@@ -97,6 +98,7 @@ export function initialize({ apiUrl, cookies, isServer, currentLocation, userAge
         />
         <Route path="/portfolio">
           {/* <Route path="/index" component={Portfolio}/> */}
+          <Route path="/portfolio/request-a-stellar-atm" component={RequestAStellarATM} />
           <Route path="/portfolio/microsoft-atlanta" component={MicrosoftAtlanta} />
           <Route path="/portfolio/thriftbooks" component={ThriftBooks} />
           <Route path="/portfolio/slalom-consulting" component={SlalomConsulting} />
