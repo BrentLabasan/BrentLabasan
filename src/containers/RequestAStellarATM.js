@@ -31,7 +31,7 @@ class RequestAStellarATM extends React.Component {
           </Row>*/}
 
           <Row className="show-grid">
-            <Col xs={12} className="noPadding"><img src="/microsoft-atlanta/Microsoft-Atlanta-banner-lrg.jpg" alt="Thriftbooks banner" /></Col>
+            <Col xs={12} className="noPadding"><img src="/request-a-stellar-atm/RequestAStellarATM-banner-large.png" alt="Thriftbooks banner" /></Col>
           </Row>
 
           <br /><br />
