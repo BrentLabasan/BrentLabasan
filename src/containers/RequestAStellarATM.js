@@ -76,6 +76,8 @@ class RequestAStellarATM extends React.Component {
               <h4>
                 ATM donation location is specified by attaching latitude and longitude coordinates to the data field of transactions.
                 <br /><br />
+                HTML, CSS, JavaScript (Stellar JS SDK, React), and Bootstrap on the front-end. Heroku and the Stellar Blockchain on the back-end.
+                <br /><br />
                 Visit the live site at <a href="http://RequestAStellarATM.com" target="_blank">RequestAStellarATM.com</a>
               </h4>
             </Col>
