@@ -45,13 +45,15 @@ class RequestAStellarATM extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="ms-red txtSection txtAlignLeft">
-              <h2>Front-end and back-end development of a content moderation web application, for use both internally and by Microsoft’s partners.</h2>
+              <h2>
+                Developed a <a href="http://RequestAStellarATM.com" target="_blank">web app</a> that allows users to donate Stellar Lumens (IBM-partnered cryptocurrency) towards funding cryptocurrency ATMs in underbanked locations.
+              </h2>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="noPadding">
-              <img style={{ width: '100%' }} src="/microsoft-atlanta/Microsoft-Atlanta-moderation1.jpg" alt="Thriftbooks banner" />
+              <img style={{ width: '100%' }} src="/request-a-stellar-atm/intro.png" alt="Thriftbooks banner" />
             </Col>
           </Row>
 
@@ -59,82 +61,13 @@ class RequestAStellarATM extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="ms-blue txtSection txtAlignLeft">
-              <h3>Content types include text, URLs, audio, video, and 3D models.</h3>
+              <h3>Instead of sending fiat currency to a middleman organization, users send Lumens to a dedicated public address, which allow users to transparently see all transactions coming in and out. </h3>
             </Col>
           </Row>
 
           <Row className="show-grid">
-            <Col xs={12} className="ms-yellowin">
-              {/* <video width="1460" height="822" controls>*/}
-              <video width="90%" controls>
-                <source src="/microsoft-atlanta/text1.mp4" type="video/mp4" />
-              </video>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Building the text moderation section.</h4>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellowin">
-              {/* <video width="1460" height="822" controls>*/}
-              <video width="90%" controls>
-                <source src="/microsoft-atlanta/image1-zoom.mp4" type="video/mp4" />
-              </video>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Building the image moderation section. Testing the content zoom function.</h4>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellowin">
-              {/* <video width="1460" height="822" controls>*/}
-              <video width="90%" controls>
-                <source src="/microsoft-atlanta/url2-tagging.mp4" type="video/mp4" />
-              </video>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Tagging URLs. Testing the tag selection and search interface. Verifying that content cannot be tagged with the same tag twice.</h4>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellowin">
-              {/* <video width="1460" height="822" controls>*/}
-              <video width="90%" controls>
-                <source src="/microsoft-atlanta/video1.mp4" type="video/mp4" />
-              </video>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Testing video playback in the video section.</h4>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellowin">
-              {/* <video width="1460" height="822" controls>*/}
-              <video width="90%" controls>
-                <source src="/microsoft-atlanta/3D.mp4" type="video/mp4" />
-              </video>
-            </Col>
-          </Row>
-
-          <Row className="show-grid">
-            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
-              <h4>Developing the 3D model section.</h4>
+            <Col xs={12} className="ms-yellowin txtSection txtAlignLeft">
+              <img style={{ width: '40%', margin: '40px 0' }} src="/request-a-stellar-atm/coordinates.png" alt="Thriftbooks banner" />
             </Col>
           </Row>
 
