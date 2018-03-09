@@ -61,13 +61,23 @@ class RequestAStellarATM extends React.Component {
 
           <Row className="show-grid">
             <Col xs={12} className="ms-blue txtSection txtAlignLeft">
-              <h3>Instead of sending fiat currency to a middleman organization, users send Lumens to a dedicated public address, which allow users to transparently see all transactions coming in and out. </h3>
+              <h3>Instead of sending fiat currency to a middleman organization, users send Lumens to a public key set up for Lumens donations, which allow users to transparently see all transactions coming in and out. </h3>
             </Col>
           </Row>
 
           <Row className="show-grid">
             <Col xs={12} className="ms-yellowin txtSection txtAlignLeft">
               <img style={{ width: '40%', margin: '40px 0' }} src="/request-a-stellar-atm/coordinates.png" alt="Thriftbooks banner" />
+            </Col>
+          </Row>
+
+          <Row className="show-grid">
+            <Col xs={12} className="ms-yellow txtSection txtAlignLeft">
+              <h4>
+                ATM donation location is specified by attaching latitude and longitude coordinates to the data field of transactions.
+                <br /><br />
+                Visit the live site at <a href="http://RequestAStellarATM.com" target="_blank">RequestAStellarATM.com</a>
+              </h4>
             </Col>
           </Row>
 
